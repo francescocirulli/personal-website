@@ -7,8 +7,8 @@ import BlogPostPreview from '@/components/BlogPost/BlogPostPreview'
 import { H1, Text } from '@/components/Text'
 import { getAllPosts } from '@/lib/posts'
 
-const url = 'https://limone.lol/posts'
-const title = 'Posts – Limone'
+const url = 'https://frank.lol/posts'
+const title = 'Posts – frank'
 const description = 'Posts about coding and web development.'
 
 const BlogPage = ({ posts }: { posts: Post[] }) => {

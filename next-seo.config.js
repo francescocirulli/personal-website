@@ -1,6 +1,6 @@
-const title = 'Limone - always zesty'
-const description = 'Your friendly neighborhood lemon'
-const url = 'https://limone.lol'
+const title = 'Frank - personal website'
+const description = 'Hey this is Frank personal website'
+const url = 'https://frank.lol'
 const image = `${url}/static/images/banner.png`
 
 const SEO = {
@@ -16,7 +16,7 @@ const SEO = {
     images: [
       {
         url: image,
-        alt: 'Limone',
+        alt: 'Frank',
         type: 'image/png',
       },
     ],

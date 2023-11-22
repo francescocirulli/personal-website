@@ -4,12 +4,12 @@ import { Post } from 'contentlayer/generated'
 const BlogPostSeo = ({ post }: { post: Post }) => {
   const { slug, title, excerpt, date } = post
   const publishedTime = new Date(date).toISOString()
-  const url = `https://limone.lol/posts/${slug}`
+  const url = `https://frank.lol/posts/${slug}`
 
   return (
     <>
       <NextSeo
-        title={`${title} – Limone`}
+        title={`${title} – frank`}
         description={excerpt}
         canonical={url}
         openGraph={{
@@ -23,18 +23,18 @@ const BlogPostSeo = ({ post }: { post: Post }) => {
           images: post.image
             ? [
                 {
-                  url: `https://limone.lol/static/images/${post.slug}/${post.image}`,
+                  url: `https://frank.lol/static/images/${post.slug}/${post.image}`,
                 },
               ]
             : [],
         }}
       />
       <ArticleJsonLd
-        authorName="Limone"
+        authorName="frank"
         dateModified={date}
         datePublished={date}
         description={excerpt}
-        publisherName="Limone"
+        publisherName="frank"
         title={title}
         url={url}
         images={[]}

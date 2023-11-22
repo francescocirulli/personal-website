@@ -8,7 +8,7 @@ export default async function handler(
 ) {
   try {
     const tokens = await new AirstackHelper().getTokensForAddress(
-      'limone.eth',
+      'frank.eth',
       '0x0b22fe0a2995c5389ac093400e52471dca8bb48a',
     )
 

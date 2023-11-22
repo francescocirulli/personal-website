@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://limone.lol
+Host: https://frank.lol
 
 # Sitemaps
-Sitemap: https://limone.lol/sitemap.xml
+Sitemap: https://frank.lol/sitemap.xml

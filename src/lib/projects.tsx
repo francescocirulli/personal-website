@@ -15,6 +15,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Pulse',
+    description: 'Tinder-like social client on Farcaster and Lens with a custom feed related to your social graph',
+    tags: ['Next.js', 'Airstack', 'Base', 'Privy', 'ENS'],
+    url: 'pulse-indol.vercel.app',
+    githubUrl: 'https://github.com/PaoloRollo/pulse',
+    //logo: '/threelingo.png',
+    emoji: '📱',
+    label: 'ETHGlobal Istanbul 2023',
+  },
+  {
     title: 'threelingo',
     description: 'The free, fun and effective way to learn web3',
     tags: ['Next.js', 'Safe', 'Polygon', 'Web3Auth'],
@@ -24,32 +34,13 @@ export const projects: Project[] = [
     label: 'ETHLisbon 2023',
   },
   {
-    title: 'Findcaster',
-    description: 'The best place to find people on Farcaster',
-    tags: ['Next.js', 'Farcaster', 'Web3 socials'],
-    url: 'https://findcaster-kappa.vercel.app',
-    githubUrl: 'https://github.com/limone-eth/findcaster',
-    emoji: '🔍',
-    label: 'buildspace s4',
-  },
-  {
     title: 'Split3',
     description: 'The easiest way to split group expenses with crypto',
     tags: ['Next.js', 'RequestNetwork', 'Safe'],
     url: 'https://split-3.vercel.app',
-    githubUrl: 'https://github.com/mattiapomelli/split3-frontend',
+    //githubUrl: 'https://github.com/mattiapomelli/split3-frontend',
     emoji: '🖖',
-    label: 'ETHWarsaw Winner',
-  },
-  {
-    title: 'Bubbles',
-    description:
-      'A voice chat app for onchain communities. Create token-gated rooms based on token ownership, POAP claims, group affiliations and more.',
-    tags: ['Next.js', 'Daily.co', 'Sismo', 'Airstack'],
-    url: 'https://thebubbles.xyz',
-    githubUrl: 'https://github.com/gskril/ethglobal-paris-hack',
-    emoji: '🫧',
-    label: 'ETHGlobal Paris Winner',
+    label: 'crypto payments',
   },
   {
     title: 'Bob is Safe',
@@ -62,12 +53,23 @@ export const projects: Project[] = [
     label: 'ETHGlobal Lisbon 2022',
   },
   {
+    title: 'GitGate',
+    description: 'Token gated github repo management',
+    tags: ['Next.js', 'Github', 'Polygon', 'WalletConnect'],
+    url: 'https://web-gitgate.vercel.app/',
+    githubUrl: 'https://github.com/Git-Gate',
+    emoji: '🫂',
+    //logo: '/threelingo.png',
+    label: 'ETHLisbon 2022',
+  },
+  {
     title: 'urbe.eth',
     description:
       'Community for Web3 builders in Rome: coworking, events, hackathons, and more.',
     tags: [],
     url: 'https://twitter.com/urbeEth',
     logo: '/urbe-eth.png',
+    label: 'Community co-founder',
   },
   {
     title: 'ETHRome',
@@ -76,5 +78,6 @@ export const projects: Project[] = [
     tags: [],
     url: 'https://ethrome.org',
     logo: '/ethrome.png',
+    label: 'Hackathon organizer',
   },
 ]
